@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="41.951" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Amazon Document" name="Userid test" time="23.589">
+<system-out><![CDATA[
+Given I open browser "chrome" with url "https://www.amazon.in" and initialize report "LoginReport".passed
+And i click signin..........................................................passed
+When i enter valid userid "9891011939"......................................passed
+And click continue button...................................................passed
+Then I validate the userid is valid.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Document" name="Forget pwd" time="17.647">
+<system-out><![CDATA[
+Given browser "chrome" with url "https://www.amazon.in" is open and report name "ForgetReport".passed
+And click on signin link....................................................passed
+And click on help link......................................................passed
+And click on forget pwd link................................................passed
+When enter userid "9891011939" to recover pwd...............................passed
+And enter click button......................................................passed
+Then message should get.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
