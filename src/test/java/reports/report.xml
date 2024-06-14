@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="41.951" tests="2" skipped="0" failures="0" errors="0">
-<testcase classname="Amazon Document" name="Userid test" time="23.589">
+<testsuite name="Cucumber" time="39.846" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Amazon Document" name="Userid test" time="24.568">
 <system-out><![CDATA[
 Given I open browser "chrome" with url "https://www.amazon.in" and initialize report "LoginReport".passed
 And i click signin..........................................................passed
@@ -9,7 +9,7 @@ And click continue button...................................................pass
 Then I validate the userid is valid.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Amazon Document" name="Forget pwd" time="17.647">
+<testcase classname="Amazon Document" name="Forget pwd" time="14.62">
 <system-out><![CDATA[
 Given browser "chrome" with url "https://www.amazon.in" is open and report name "ForgetReport".passed
 And click on signin link....................................................passed
